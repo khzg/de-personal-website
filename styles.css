@@ -228,14 +228,21 @@ a {
   }
 }
 @media only screen and (max-width: 400px) {
+  .profile .bio {
+    width: 300px;
+  }
   .profile .name {
     font-size: 6vw;
   }
   .aboutText {
-    width: 100%;
-    margin-left: 70px;
+    width: 80%;
+    margin-left: -8px;
   }
   .aboutDescription {
     margin-right: 55%;
+  }
+  .blog {
+    width: 263px;
+    margin-left: 8%;
   }
 }
