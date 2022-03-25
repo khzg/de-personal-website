@@ -210,6 +210,7 @@ a {
     margin-top: 160px;
     width: 400px;
     overflow-wrap: break-word;
+    margin-left: 30%;
   }
   .sectionTwo {
     margin-left: -46px;
@@ -224,5 +225,17 @@ a {
   .profile {
     width: 300;
     overflow-wrap: break-word;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .profile .name {
+    font-size: 6vw;
+  }
+  .aboutText {
+    width: 100%;
+    margin-left: 70px;
+  }
+  .aboutDescription {
+    margin-right: 55%;
   }
 }
